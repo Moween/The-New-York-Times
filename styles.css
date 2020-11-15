@@ -128,11 +128,12 @@ i[class$=user] {
 }
 
 .headline {
-  font-size: 1rem;
+  font-size: 1.45rem;
   font-weight: 700;
   font-style: italic;
   line-height: 2.25rem;
   font-family: georgia,'times new roman',times,serif;
+  margin-top: 0;
   margin-bottom: 1rem;
   margin-right: 20px;
   margin-left: 20px;  
@@ -202,15 +203,21 @@ i[class$=user] {
   margin: 0 5px;
 }
 
-.social-icon-link {
+.social-icon a{
   color: black;
   padding: 5px;
+  width: 15px;
+}
+
+.social-icon-link {
   background-color: #eee;
   border-radius: 50%;
-  height: 15px;
-  width: 15px;
   border: 1px solid #eee;
+  height: 15px;
+}
 
+.sim {
+  font-size: 20px;
 }
 
 
@@ -418,18 +425,20 @@ i[class$=user] {
 
 
   /*THE FOOTER CSS RULES*/
-#main-footer{
+#main-footer {
   margin-top: 40px;
 
 }
 
-.bdtpbo {
+#bdtpbo {
   border-top: 2px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  height: 5px;
+  margin-bottom: 10px;
 }
 
 .footer-brand-logo {
-  width: 50%;
+  width: 60%;
   height: 21px;
 }
 
@@ -438,8 +447,21 @@ i[class$=user] {
 }
 
 .ftsec2 {
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-end;
   font-size: 0.714rem;
   border-bottom: 1px solid lightgrey;
+}
+
+.ftsec2 a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.fa-angle-double-right {
+  position: relative;
+  top: 1px;
 }
 
 .footer-dropdown {
@@ -469,7 +491,6 @@ i[class$=user] {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-
 
 }
 
