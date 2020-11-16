@@ -663,7 +663,9 @@ i[class$=user] {
     margin-left: 20px;  
   }
 
-  
+  .headline h1 {
+    margin-bottom: 10px;
+  }
   
   .headline a {
     text-decoration: none;
