@@ -640,8 +640,8 @@ i[class$=user] {
   
   .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 70px;
+    padding-left: 70px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -659,8 +659,8 @@ i[class$=user] {
     font-family: georgia,'times new roman',times,serif;
     margin-top: 0;
     margin-bottom: 1rem;
-    margin-right: 20px;
-    margin-left: 20px;  
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .headline h1 {
@@ -668,6 +668,7 @@ i[class$=user] {
   }
   
   .headline a {
+    display: block;
     text-decoration: none;
     color: #333;
   }
@@ -675,7 +676,6 @@ i[class$=user] {
   .img-box {
     width: 100%;
     margin: 0;
-  
   }
   
   .imagec {
