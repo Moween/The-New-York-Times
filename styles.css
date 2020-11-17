@@ -220,6 +220,10 @@ i[class$=user] {
   font-size: 20px;
 }
 
+.sim-hidden {
+  display: none;
+}
+
 
 #article-text {
   line-height: 2rem;
@@ -747,6 +751,11 @@ i[class$=user] {
   .sim {
     font-size: 20px;
   }
+
+  .sim-hidden {
+    display: block;
+  }
+  
   
   
   #article-text {
