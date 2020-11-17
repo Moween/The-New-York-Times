@@ -930,21 +930,17 @@ i[class$=user] {
   }
 
   .img_wrapper {
-    width: 200px
+    width: 300px
   }
 
   .image {
     width: 100%;
+    height: 200px;
   }
 
   
   .img010lm {
-    height: 55px;
-    float: right;
-    position: relative;
-    left: 40px;
-    margin-top: 2px;
-    overflow: auto;
+    height: 200px;
   }
   
   .figcaptionmob {
