@@ -564,91 +564,10 @@ i[class$=user] {
 
 /**TABLET DEVICES***/
 @media screen and (min-width: 768px) {
-  #main-header {
-    margin: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: lightgrey;
+  body {
+    font-size: 20px;
   }
-  
-  
-  .dropdown {
-    width: 20%;
-  }
-  
-  
-  .dropbtn {
-    color: #333;
-    padding: 14px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    margin-left: 5px;
-  }
-  
-  .dropdown-content {
-    display: none;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: #f2f2f2;
-    border: 2px solid orange;
-    padding: 7px;
-  }
-  
-  .brand-logo {
-    width: 40%;
-    height: 21px;
-  }
-  
-  .brand-logo svg {
-    display: block;
-    
-  }
-  
-  i[class$=user] {
-    padding: 14px;
-    font-size: 18px;
-    border: none;
-    display: inline-block;
-    cursor: pointer;
-    margin-right: 5px;
-  
-  }
-  
-  .User-Icon a {
-    color: #333;
-  }
-  
-  .User-Icon a:hover {
-    background-color: #f2f2f2;
-    border: 2px solid orange;
-    padding: 7px;
-  }
-  
-  .subscribe-login-section {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 10px 20px;
-    font-size: 10px;
-  }
-  
-  
-  #subscribe-text {
-    border-right: 1px solid lightgrey;
-    margin-right: 5px;
-    padding-right: 5px;
-  }
-  
-  .subscribe-login-link {
-    text-decoration: none;
-    
-  }
+
   
   .container {
     width: 100%;
@@ -657,6 +576,10 @@ i[class$=user] {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .sections234-wrapper {
+
+  }
   
   #section1 {
     text-align: left;
@@ -664,7 +587,6 @@ i[class$=user] {
   }
   
   .headline {
-    font-size: 2.5rem;
     font-weight: 700;
     font-style: italic;
     line-height: 3rem;
@@ -676,9 +598,12 @@ i[class$=user] {
   }
 
   .headline h1 {
-    margin-bottom: 10px;
+    font-size: 2rem;
+    width: 80%;
+    margin: 0 auto  10px;
+    
   }
-  
+
   .headline a {
     display: block;
     text-decoration: none;
@@ -686,7 +611,7 @@ i[class$=user] {
   }
   
   .img-box {
-    width: 50%;
+    max-width: 100%;
     margin: 0;
   }
   
@@ -851,8 +776,32 @@ i[class$=user] {
     padding: 5px 0;
     cursor: pointer;
   }
+
+/**The Aside Bar**/ 
+#asidebar {
+  border-top: 1px solid black;
+  width: 30%;
+  float: right;
+  line-height: 1.48rem;
+}
+
+#asidebar article {
+  margin: 15px 15px 15px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+#asidebar div {
+  margin-bottom: 10px;
+  padding: 0 5px;
+}
+
   
   /*The SECOND SECTION STYLES */
+  #section2 {
+    width: 65%;
+    clear: left;
+  }
+
   .article2div {
     border: 1px solid lightgrey;
     margin-top: 10px;
@@ -911,46 +860,51 @@ i[class$=user] {
   
   
   /*THE THIRD SECTION*/
-  .column-layout {
-    column-count: 2;
-  }
-
   #section3 {
     border-top: 1px solid #000;
     color: #000;
+    clear: right;
+    width: 65%;
+  }
+
+  .sec3flex-con {
+    display: flex;
+  }
+
+  .sec3flex-item {
+    width: 30%;
   }
   
   #section3 a {
     color: #000;
+    text-decoration: none;
   }
   
   .secardivs {
-    border-top: 1px solid lightgray;
-    
+    border: none; 
   }
+  
 
-  .img_wrapper {
-    width: 300px
-  }
-
-  .image {
-    width: 100%;
-    height: 200px;
+  #section3 .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   
-  .img010lm {
-    height: 200px;
-  }
   
   .figcaptionmob {
     display: none;
   }
+
   
   .sec3ardivs div:last-of-type {
     line-height: 1.45rem;
     margin-top: 10px;
   }
+
+ 
   
   
    /*THE FOURTH  SECTION*/ 
@@ -958,6 +912,7 @@ i[class$=user] {
     border-top: 1px solid #000;
     color: #000;
     margin-top: 40px;
+    width: 65%;
   }
   
   #sec41fgcap {
