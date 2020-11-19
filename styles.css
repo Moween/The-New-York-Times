@@ -26,6 +26,7 @@ hr {
 }
 
 
+/*****FOR MOBILE DEVICE****/
 /*****Main-Header*****/
 #main-header {
   margin: 0;
@@ -67,13 +68,13 @@ hr {
 
 .brand-logo {
   width: 40%;
-  height: 21px;
+  height: 10%;
 }
 
 .brand-logo svg {
-  display: block;
-  
+  display: block;  
 }
+
 
 i[class$=user] {
   padding: 14px;
@@ -311,6 +312,11 @@ i[class$=user] {
   cursor: pointer;
 }
 
+/**ASIDE SECTION STYLES**/
+#asidebar {
+  display: none;
+}
+
 /*The SECOND SECTION STYLES */
 .article2div {
   border: 1px solid lightgrey;
@@ -384,15 +390,14 @@ i[class$=user] {
   
 }
 
-.img_wrapper {
-  width: 100%;
-  margin: 0;
-}
 
 .image {
   width: 100%;
 }
 
+.img010lm-wrapper {
+  width: 40%;
+}
 .img010lm {
   height: 55px;
   float: right;
@@ -406,7 +411,7 @@ i[class$=user] {
   display: none;
 }
 
-.sec3ardivs div:last-of-type {
+.secardivs div:last-of-type {
   line-height: 1.45rem;
   margin-top: 10px;
 }
@@ -568,7 +573,16 @@ i[class$=user] {
     font-size: 20px;
   }
 
+  .brand-logo {
+    width: 30%;
+    height: 20%;
+  }
   
+  .brand-logo svg {
+    display: block;
+    
+  }
+
   .container {
     width: 100%;
     padding-right: 70px;
@@ -577,9 +591,6 @@ i[class$=user] {
     margin-left: auto;
   }
 
-  .sections234-wrapper {
-
-  }
   
   #section1 {
     text-align: left;
@@ -778,21 +789,33 @@ i[class$=user] {
   }
 
 /**The Aside Bar**/ 
+
+
 #asidebar {
+  display: block;
   border-top: 1px solid black;
   width: 30%;
   float: right;
   line-height: 1.48rem;
 }
 
+#asidebar.container {
+  /* width: 65%; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
 #asidebar article {
-  margin: 15px 15px 15px 0;
+  margin: 15px 10px 15px 0;
   border-bottom: 1px solid lightgrey;
 }
 
 #asidebar div {
   margin-bottom: 10px;
-  padding: 0 5px;
+  padding: 0;
+  
 }
 
   
@@ -800,6 +823,13 @@ i[class$=user] {
   #section2 {
     width: 65%;
     clear: left;
+  }
+
+  #section2.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
   }
 
   .article2div {
@@ -860,52 +890,109 @@ i[class$=user] {
   
   
   /*THE THIRD SECTION*/
+
   #section3 {
     border-top: 1px solid #000;
     color: #000;
-    clear: right;
+    clear: left;
     width: 65%;
   }
 
-  .sec3flex-con {
+  #section3 .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .sec34flex-container {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .sec3flex-item {
-    width: 30%;
+    width: 50%;
   }
+  
+  #section3 .img-box {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .image {
+    width: 100%;
+    height: 150px;
+  } 
+
+  figure {
+    margin: 0;
+  
+  }
+
+  .img010lm {
+    height: 150px;
+    float: none;
+    position: static;
+    left: 0;
+    display: block;
+    overflow: auto;
+
+  }
+  
   
   #section3 a {
     color: #000;
     text-decoration: none;
   }
+
+  #section3 a.anchsty {
+    margin-bottom: 0;
+  }
   
   .secardivs {
     border: none; 
+    width: 100%;
+  }
+
+  .secardivs div:first-child {
+    margin-right: 0;
+    margin-left: 0;
   }
   
 
-  #section3 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  .author.figcaptionmob {
+    display: block;
+    width: 100%;
+    text-align: right;
+    
   }
 
-  
-  
   .figcaptionmob {
     display: none;
   }
 
-  
-  .sec3ardivs div:last-of-type {
-    line-height: 1.45rem;
-    margin-top: 10px;
+  .artab.figcaptionmob {
+    display: block;
   }
 
- 
-  
+  .sec3flex-item > article:last-child{
+    margin-top: 10px;
+  }
+   
+  .secardivs p:only-of-type {
+    width: 100%;
+    font-weight: lighter;
+    padding: 0 5px 0 0;
+    color: #cccc;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+
   
    /*THE FOURTH  SECTION*/ 
   #section4 {
@@ -913,6 +1000,23 @@ i[class$=user] {
     color: #000;
     margin-top: 40px;
     width: 65%;
+    clear: left;
+    
+  }
+   
+  #section4 .container {
+    /* width: 65%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  #section4 .img-box {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
   }
   
   #sec41fgcap {
@@ -930,6 +1034,7 @@ i[class$=user] {
   
   #section4 a {
     color: #000;
+    text-decoration: none;
   }
   
   
@@ -947,17 +1052,25 @@ i[class$=user] {
   }
   
   .footer-brand-logo {
-    width: 60%;
-    height: 21px;
+    width: 30%;
+    height: 20%;
   }
   
   .footer-brand-logo svg {
     width: 100%;
   }
   
+  #main-footer .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  } 
+  
   .ftsec2 {
     padding: 10px 0;
     display: flex;
+    justify-content: space-between;
     align-items: flex-end;
     font-size: 0.714rem;
     border-bottom: 1px solid lightgrey;
@@ -989,32 +1102,33 @@ i[class$=user] {
   }
   
   #link-con {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    justify-content: space-between;
-    height: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
     font-size: 0.65rem;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
   
   }
   
   .list {
     list-style-type: none;
-    display: flex;
+    /* display: flex; */
+    display: block;
     margin: 0;
     overflow: hidden;  
     padding-left: 0;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center;
+    justify-content: space-between; */
   }
   
   .list li {
-    margin-right: 3.5px;
+    /* margin-right: 3.5px; */
   
   }
   
@@ -1022,7 +1136,7 @@ i[class$=user] {
     display: inline-block;
     text-decoration: none;
     color: #666;
-    padding: 3px;
+    /* padding: 3px; */
   
   }
   
