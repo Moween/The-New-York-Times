@@ -156,7 +156,7 @@ i[class$=user] {
 } 
 
 .intro{
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: georgia,'times new roman',times,serif;
   font-size: 0.875rem;
   line-height: 1.125rem;
   color: #666;
@@ -399,6 +399,7 @@ i[class$=user] {
   width: 40%;
 }
 .img010lm {
+  object-fit: cover;
   height: 55px;
   float: right;
   position: relative;
@@ -467,9 +468,12 @@ i[class$=user] {
 .ftsec2 {
   padding: 10px 0;
   display: flex;
-  align-items: flex-end;
   font-size: 0.714rem;
   border-bottom: 1px solid lightgrey;
+}
+
+#ghp {
+  align-self: flex-end;
 }
 
 .ftsec2 a {
@@ -498,12 +502,7 @@ i[class$=user] {
 }
 
 #link-con {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  justify-content: space-between;
-  height: 80px;
+  width: 100%;
   font-size: 0.65rem;
   padding-right: 15px;
   padding-left: 15px;
@@ -515,19 +514,24 @@ i[class$=user] {
 .list {
   list-style-type: none;
   display: flex;
-  margin: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px auto;
   overflow: hidden;  
-  padding-left: 0;
   align-items: center;
-  justify-content: space-between;
+  padding-left: 0;
+  
 }
 
 .list li {
-  margin-right: 3.5px;
-
+  display: inline-block;
+  padding: 0 2px;
+  font-size: 0.65rem;
 }
 
 .flink {
+  width: 100%;
   display: inline-block;
   text-decoration: none;
   color: #666;
@@ -566,6 +570,218 @@ i[class$=user] {
   margin: 10px;
   border-left: 1px solid lightgrey;
 }
+
+/**MIN-WIDTH : 600px**/
+@media screen and (min-width: 600px) {
+  /*THE THIRD SECTION*/
+  
+  #section3 {
+    border-top: 1px solid #000;
+    color: #000;
+    clear: left;
+    width: 100%;
+  }
+
+  #section3 .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .sec34flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sec3flex-item {
+    width: 45%;
+  }
+
+  .secflex-item2 {
+    width: 50%;
+  }
+  
+  #section3 .img-box {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .image {
+    width: 100%;
+    height: 150px;
+  } 
+
+  figure {
+    margin: 0;
+  
+  }
+
+  #section3 .img010lm-wrapper {
+    width: 100%;
+  }
+
+  .img010lm {
+    width: 100%;
+    height: 150px;
+    float: none;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+
+  }
+  
+  
+  #section3 a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  #section3 a.anchsty {
+    margin-bottom: 0;
+  }
+  
+  .secardivs {
+    border: none; 
+    width: 100%;
+  }
+
+  .secardivs div:first-child {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+
+  .author.figcaptionmob {
+    display: block;
+    width: 100%;
+    text-align: right;
+    
+  }
+
+  .figcaptionmob {
+    display: none;
+  }
+
+  .artab.figcaptionmob {
+    display: block;
+  }
+
+  .sec3flex-item > article:last-child{
+    margin-top: 10px;
+  }
+   
+  .secardivs p:only-of-type {
+    width: 100%;
+    font-weight: lighter;
+    padding: 0 5px 0 0;
+    color: #cccc;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  section {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /**The Fourth Section**/
+  
+  #section4 {
+    border-top: 1px solid #000;
+    color: #000;
+    margin-top: 40px;
+    width: 100%;
+    clear: left;
+    
+  }
+   
+  #section4 .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  #section4 .secardivs {
+    width: 100%;
+  }
+
+  #section4 .img-box {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  
+  #sec41fgcap {
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  #sec41fgcap .author {
+    color: rgb(153, 153, 153);
+    font-size: 0.7em;
+    line-height: 1.23em;
+    margin: 3px 15px 0px;
+    text-align: right;
+  }
+  
+  #section4 a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .secardivs p:only-of-type {
+    width: 100%;
+  }
+
+  /**FOOTER STYLES**/
+  .ftsec2 {
+    justify-content: space-between;
+  }
+
+  #ghp {
+    align-self: flex-end;
+  }
+
+  .footer-brand-logo {
+    width: 30%;
+    height: 20%;
+  }
+  
+  .footer-brand-logo svg {
+    width: 100%;
+  }
+
+  .list {
+    justify-content: center;
+  }
+  
+  .list li {
+    display: inline-block;
+    padding: 0 2px;
+    font-size: 0.65rem;
+  
+  }
+  
+  .flink {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    padding: 3px;
+  
+  }
+}
+
 
 /**TABLET DEVICES***/
 @media screen and (min-width: 768px) {
@@ -939,7 +1155,7 @@ i[class$=user] {
     position: static;
     left: 0;
     display: block;
-    overflow: auto;
+    overflow: none;
 
   }
   
@@ -1005,7 +1221,7 @@ i[class$=user] {
   }
    
   #section4 .container {
-    /* width: 65%; */
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: 0;
@@ -1035,6 +1251,14 @@ i[class$=user] {
   #section4 a {
     color: #000;
     text-decoration: none;
+  }
+
+  #section4 .secardivs {
+    width: 100%;
+  }
+
+  .secardivs p:only-of-type {
+    width: 100%;
   }
   
   
@@ -1071,11 +1295,14 @@ i[class$=user] {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
     font-size: 0.714rem;
     border-bottom: 1px solid lightgrey;
   }
   
+  #ghp {
+    align-self: flex-end;
+  }
+
   .ftsec2 a {
     text-decoration: none;
     margin-left: 5px;
@@ -1101,45 +1328,16 @@ i[class$=user] {
     text-align: center;
   }
   
-  #link-con {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: flex-start;
-    font-size: 0.65rem;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; 
-  
-  }
-  
-  .list {
-    list-style-type: none;
-    /* display: flex; */
-    display: block;
-    margin: 0;
-    overflow: hidden;  
-    padding-left: 0;
-    /* align-items: center;
-    justify-content: space-between; */
-  }
-  
-  .list li {
-    /* margin-right: 3.5px; */
-  
-  }
-  
   .flink {
     display: inline-block;
     text-decoration: none;
     color: #666;
-    /* padding: 3px; */
-  
+    padding: 3px;  
   }
   
+  .flinkhide {
+    display: none;
+  }
   
   #sticksub {
     position: sticky;
