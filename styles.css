@@ -1087,7 +1087,8 @@ i[class$=user] {
   margin-bottom: 10px;
   padding: 0;
   line-height: 1.5;
-  font-family: ;
+  font-family: 'open sans', sans-serif;
+  font-weight: 600;
   font-size: 1.45rem;
 }
 
@@ -1438,9 +1439,6 @@ i[class$=user] {
 /***The Larger Screen***/
 @media screen and (min-width: 1024px) {
  /**MAIN HEADER***/ 
-  #main-header {
-    
-  }
 
   .dropdown {
     display: flex;
