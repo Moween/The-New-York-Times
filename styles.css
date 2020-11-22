@@ -292,6 +292,10 @@ i[class$=user] {
   top: 0px;
 }
 
+#section1 .div-box {
+  display: none;
+}
+
 #lstsection {
   color: #666;
   font-size: 0.6875rem;
@@ -309,7 +313,7 @@ i[class$=user] {
 }
 
 .btnwrapper {
-  margin: 15px 0 20px;
+  margin: 15px 10px 20px 0;
 }
 
 .btn {
@@ -320,10 +324,14 @@ i[class$=user] {
   border-radius: 3px;
   outline: none;
   line-height: 1.5rem;
-  text-transform: uppercase;
   display: block;
   padding: 5px 0;
   cursor: pointer;
+}
+
+#section1 footer div > a {
+  text-align: center;
+  text-decoration: none;
 }
 
 /**ASIDE SECTION STYLES**/
@@ -446,8 +454,8 @@ i[class$=user] {
 
 #sec41fgcap .author {
   color: rgb(153, 153, 153);
-  font-size: 0.7em;
-  line-height: 1.23em;
+  font-size: 0.7rem;
+  line-height: 1.23rem;
   margin: 3px 15px 0px;
   text-align: right;
 }
@@ -589,6 +597,56 @@ i[class$=user] {
 @media screen and (min-width: 600px) {
   /*THE THIRD SECTION*/
   
+  #cssmf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #section1 .div-box {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 0.775rem;
+    line-height: 1.25rem;
+  }
+
+  #section1 .div-box > p {
+    width: 70%;
+  }
+
+  .social-icons-share {
+    width: 30%;
+  }
+
+  .div-box .btnwrapper {
+    width: 20%;
+    margin: 15px 10px 20px 0;
+  }
+
+  .btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #567b95;
+    border-color: #567b95;
+  }
+
+  .btn.btn-default {
+    text-align: center;
+    text-decoration: none;
+    box-shadow: #333;
+  }
+  
+  #cssmf > .btnwrapper {
+    width: 50%;
+  }
+    
   #section3 {
     border-top: 1px solid #000;
     color: #000;
@@ -633,7 +691,6 @@ i[class$=user] {
 
   figure {
     margin: 0;
-  
   }
 
   #section3 .img010lm-wrapper {
@@ -742,8 +799,8 @@ i[class$=user] {
   
   #sec41fgcap .author {
     color: rgb(153, 153, 153);
-    font-size: 0.7em;
-    line-height: 1.23em;
+    font-size: 0.7rem;
+    line-height: 1.23rem;
     margin: 3px 15px 0px;
     text-align: right;
   }
@@ -1000,23 +1057,7 @@ i[class$=user] {
     margin-bottom: 50px;
   }
   
-  .btnwrapper {
-    margin: 15px 0 20px;
-  }
   
-  .btn {
-    background-color: rgb(86, 123, 149);
-    border: 1px solid rgb(86, 123, 149);
-    color: white;
-    width: 100%;
-    border-radius: 3px;
-    outline: none;
-    line-height: 1.5rem;
-    text-transform: uppercase;
-    display: block;
-    padding: 5px 0;
-    cursor: pointer;
-  }
 
 /**The Aside Bar**/ 
 
@@ -1256,8 +1297,8 @@ i[class$=user] {
   
   #sec41fgcap .author {
     color: rgb(153, 153, 153);
-    font-size: 0.7em;
-    line-height: 1.23em;
+    font-size: 0.7rem;
+    line-height: 1.23rem;
     margin: 3px 15px 0px;
     text-align: right;
   }
@@ -1477,6 +1518,464 @@ i[class$=user] {
     background-color: #567b95;
     border-color: #567b95;
   }
+
+  .btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    font-weight: bold;
+  }
+
+  .btn.btn-default {
+    text-align: center;
+    text-decoration: none;
+    box-shadow: #333;
+  }
+
+  .container {
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #section1 {
+    text-align: left;
+    height: auto;
+  }
+
+  .headline {
+    font-weight: 700;
+    font-style: italic;
+    line-height: 4rem;
+    font-family: georgia,'times new roman',times,serif;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .headline h1 {
+    font-size: 3rem;
+    width: 50%;
+    margin:  10px auto;
+    
+  }
+  
+  .img-box {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  
+  .intro{
+    font-family: georgia,'times new roman',times,serif;
+    font-size: 1.25rem;
+    line-height: 1.45rem;
+    color: #666;
+    padding-right: 10px;
+    padding-left: 0;
+    margin-top: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: 0;
+    text-align: left;
+  
+  }
+  
+  
+  .author {
+    color: #888;
+    font-size: 1.25rem;
+  
+  }
+  
+  .title-name {
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  .title-name a{
+    color:#333;
+    text-decoration-color: lightgrey;
+    
+  }
+  
+  #date-social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .social-icons-share {
+    list-style-type: none;
+    padding-left: 0;
+  
+  }
+  
+  .social-icon {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 5px;
+  }
+  
+  .social-icon a{
+    color: black;
+    padding: 5px;
+    width: 15px;
+  }
+  
+  .social-icon-link {
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    height: 15px;
+  }
+  
+  .sim {
+    font-size: 20px;
+  }
+
+  .sim-hidden {
+    display: inline-block;
+  }
+  
+  
+  
+  #article-text {
+    line-height: 2.5rem;
+    font-weight: 500;
+   }
+
+  .ad {
+    background-color: lightgrey;
+  }
+  
+  .bd-sty {
+    border-top: 1px solid lightgrey;
+    margin:  0px auto 18px;
+    width: 72px;
+    text-align: center;
+  }
+  
+  .bd-sty2 {
+    border-bottom: 1px solid lightgrey;
+    margin:  0px auto 18px;
+    width: 72px;
+    text-align: center;
+  }
+  
+  .pre-css {
+    font-weight: bold;
+    text-align: center;
+    line-height: 2rem;
+   
+  }
+  
+  .anchsty{
+    display: block;
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  #a-subscribetotimes {
+    margin-top: 0;
+  }
+  
+  .cssa1sty {
+    clear: left;
+  }
+  
+  .video-stream {
+    width: 100%;
+    left: 0px; 
+    top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  #lstsection {
+    color: #666;
+    font-size: 0.6875rem;
+    line-height: 1rem;
+    
+  }
+  
+  .lstsectiona {
+    color: #666;
+  }
+  
+  #cssmf {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  /* #cssmf > .btnwrapper {
+    width: 50%;
+  } */
+  
+
+/**The Aside Bar**/ 
+
+
+#asidebar {
+  display: block;
+  border-top: 1px solid black;
+  width: 30%;
+  float: right;
+  line-height: 1.48rem;
+}
+
+#asidebar.container {
+  /* width: 65%; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+#asidebar article {
+  margin: 15px 10px 15px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+#asidebar div {
+  margin-bottom: 10px;
+  padding: 0;
+  
+}
+
+  
+  /*The SECOND SECTION STYLES */
+  #section2 {
+    width: 65%;
+    clear: left;
+  }
+
+  #section2.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .article2div {
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+  }
+  
+  .cssh4p {
+    margin-top: 5px;
+    font-weight: bold;
+    border-top: 2px solid black;
+  
+  }
+  
+  .div-box {
+    display: flex;
+  }
+  
+  
+  .div-box div:last-of-type {
+    position: relative;
+  
+  }
+  .random-img-wrapper {
+    margin-top:10px;
+    margin-left:10px
+  }
+  
+  .random-img {
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  
+  }
+  
+  .p-26 {
+    margin-bottom: 0;
+    font-size: 0.75rem;
+  }
+  
+  .h-04 {
+    margin-top: 3px;
+    margin-bottom: 0;
+    
+  }
+  
+  .material-icons {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  
+  .lstdiv {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  
+  /*THE THIRD SECTION*/
+
+  #section3 {
+    border-top: 1px solid #000;
+    color: #000;
+    clear: left;
+    width: 65%;
+  }
+
+  #section3 .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .sec34flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .sec3flex-item {
+    width: 50%;
+  }
+  
+  #section3 .img-box {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .image {
+    width: 100%;
+    height: 150px;
+  } 
+
+  figure {
+    margin: 0;
+  
+  }
+
+  .img010lm {
+    height: 150px;
+    float: none;
+    position: static;
+    left: 0;
+    display: block;
+    overflow: none;
+
+  }
+  
+  
+  #section3 a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  #section3 a.anchsty {
+    margin-bottom: 0;
+  }
+  
+  .secardivs {
+    border: none; 
+    width: 100%;
+  }
+
+  .secardivs div:first-child {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+
+  .author.figcaptionmob {
+    display: block;
+    width: 100%;
+    text-align: right;
+    
+  }
+
+  .figcaptionmob {
+    display: none;
+  }
+
+  .artab.figcaptionmob {
+    display: block;
+  }
+
+  .sec3flex-item > article:last-child{
+    margin-top: 10px;
+  }
+   
+  .secardivs p:only-of-type {
+    width: 100%;
+    font-weight: lighter;
+    padding: 0 5px 0 0;
+    color: #cccc;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+
+  
+   /*THE FOURTH  SECTION*/ 
+  #section4 {
+    border-top: 1px solid #000;
+    color: #000;
+    margin-top: 40px;
+    width: 65%;
+    clear: left;
+    
+  }
+   
+  #section4 .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  #section4 .img-box {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  
+  #sec41fgcap {
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  #sec41fgcap .author {
+    color: rgb(153, 153, 153);
+    font-size: 0.7rem;
+    line-height: 1.23rem;
+    margin: 3px 15px 0px;
+    text-align: right;
+  }
+  
+  #section4 a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  #section4 .secardivs {
+    width: 100%;
+  }
+
+  .secardivs p:only-of-type {
+    width: 100%;
+  }
+  
 
   
 
