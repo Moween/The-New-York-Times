@@ -1112,7 +1112,6 @@ i[class$=user] {
     margin-top: 5px;
     font-weight: bold;
     border-top: 2px solid black;
-  
   }
   
   .div-box {
@@ -1718,38 +1717,40 @@ i[class$=user] {
     width: 50%;
   } */
   
+  /**THIS SECTION CONTAINS THE ASIDE, SECTION2,3,4**/
+  #asec234 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /**The Aside Bar**/ 
+  #asidebar {
+    display: block;
+    border-top: 1px solid black;
+    width: 30%;
+    float: right;
+    line-height: 1.48rem;
+  }
 
-/**The Aside Bar**/ 
+  #asidebar.container {
+    /* width: 65%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  #asidebar article {
+    margin: 15px 10px 15px 0;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  #asidebar div {
+    margin-bottom: 10px;
+    padding: 0;
+
+  }
 
 
-#asidebar {
-  display: block;
-  border-top: 1px solid black;
-  width: 30%;
-  float: right;
-  line-height: 1.48rem;
-}
-
-#asidebar.container {
-  /* width: 65%; */
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 0;
-  margin-left: 5px;
-}
-
-#asidebar article {
-  margin: 15px 10px 15px 0;
-  border-bottom: 1px solid lightgrey;
-}
-
-#asidebar div {
-  margin-bottom: 10px;
-  padding: 0;
-  
-}
-
-  
   /*The SECOND SECTION STYLES */
   #section2 {
     width: 65%;
@@ -1781,9 +1782,9 @@ i[class$=user] {
   
   
   .div-box div:last-of-type {
-    position: relative;
-  
+    position: relative;  
   }
+
   .random-img-wrapper {
     margin-top:10px;
     margin-left:10px
@@ -1793,8 +1794,7 @@ i[class$=user] {
     width: 100px;
     height: 80px;
     float: left;
-    margin-right: 10px;
-  
+    margin-right: 10px;  
   }
   
   .p-26 {
@@ -1804,8 +1804,7 @@ i[class$=user] {
   
   .h-04 {
     margin-top: 3px;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;    
   }
   
   .material-icons {
