@@ -363,6 +363,7 @@ i[class$=user] {
   position: relative;
 
 }
+
 .random-img-wrapper {
   margin-top:10px;
   margin-left:10px
@@ -373,7 +374,6 @@ i[class$=user] {
   height: 80px;
   float: left;
   margin-right: 10px;
-
 }
 
 .p-26 {
@@ -510,6 +510,10 @@ i[class$=user] {
 
 .footer-dropdown {
   width: 100%;
+}
+
+#ftsub {
+  display: none;
 }
 
 .showh3 {
@@ -2349,6 +2353,9 @@ i[class$=user] {
     border-bottom: 1px solid lightgrey;
   }
 
+  #ftsub {
+    display: block;
+  }
 
   #ftsub-link {
     color: #000;
@@ -2359,5 +2366,7 @@ i[class$=user] {
     display: inline-block;
     width: 13px;
     vertical-align: middle;
-  } 
+  }
+  
+  
 }
