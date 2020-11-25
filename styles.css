@@ -1558,9 +1558,7 @@ i[class$=user] {
 /***The Larger Screen***/
 @media screen and (min-width: 1024px) {
  /**MAIN HEADER***/ 
-  #main-header {
     
-  }
  
   .dropdown {
     display: flex;
@@ -2174,7 +2172,6 @@ i[class$=user] {
 
   #infla-1 {
     top: 18%;
-    left: ;
     width: 18%;
     padding: 5px;
   }
