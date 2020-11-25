@@ -1045,14 +1045,34 @@ i[class$=user] {
   }
 
   #theoinfla {
+    max-width: 100%;
+    height: 57%;
     display: block;
     position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+  }
+  
+   .h3p{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  div#theoinfla + p {
+    padding-left: 15px;
+    margin-left: auto;
   }
 
   #theoinfla-img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%; 
   }
   
   .inflaposition {
@@ -1061,66 +1081,65 @@ i[class$=user] {
 
 
   #infla-1 {
-    top: 100px;
-    left: 0;
-    width: 150px;
-    padding: 0 5px;
+    top: 18%;
+    width: 18%;
+    padding: 5px;
   }
 
   #infla-2 {
-    top: 100px;
-    left: 150px;
-    width: 150px;
-    padding: 0 5px;
-
-    
+    top: 18%;
+    left: 27.5%;
+    width: 18%;
+    padding: 5px;
   }
 
-    #infla-3 {
-    top: 100px;
-    left: 320px;
-    width: 150px;
-    padding: 0 5px;
+  #infla-3 {
+  top: 18%;
+  left: 50%;
+  width: 22%;
+  padding: 5px;
 
   }
   
-
   #infla-4 {
-    top: 100px; 
-    left: 480px;
-    width: 150px;
+    top: 18%;
+    left: 75.5%;
+    width: 20%;
+    padding: 3px 5px;
+    margin: 2px 0;
   }  
   
 
   #infla-5 {    
-    top: 380px;
-    /* left: ; */
-    width: 150px;
+    top: 65%;
+    width: 20%;
+    padding: 10px 5px;
   }
 
   #infla-6 {
-    top: 380px;
-    left: 150px;
-    width: 150px;
+    top: 65%;
+    left: 27.5%;
+    width: 20%;
   }  
   
 
   #infla-7 {
-    top: 380px;
-    left: 320px;
-    width: 150px;  }
+    top: 65%;
+    left: 50%;
+    width: 20%;  
+  }
   
 
   #infla-8 {
-    top: 380px;
-    left: 480px;
-    width: 150px;
-  }   
+    top: 65%;
+    left: 75.5%;
+    width: 20%;
+  }  
   
 
   .theoinfla-p {
     font-family: nyt-franklin,arial,helvetica,sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 17px;
     font-weight: 300;
     color: #000000;
@@ -1974,7 +1993,7 @@ i[class$=user] {
     margin-right: 0;
     margin-left: 5px;
   }
-
+  
   .image {
     width: 100%;
   } 
@@ -2138,6 +2157,88 @@ i[class$=user] {
 }
 
 @media screen and (min-width: 1150px) {
+  #theoinfla {
+    max-width: 80%;
+    display: block;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+  }
+
+  .h3p{
+   width: 80%;
+  }
+
+
+  #infla-1 {
+    top: 18%;
+    left: ;
+    width: 18%;
+    padding: 5px;
+  }
+
+  #infla-2 {
+    top: 18%;
+    left: 27.5%;
+    width: 18%;
+    padding: 5px;
+  }
+
+  #infla-3 {
+  top: 18%;
+  left: 50%;
+  width: 22%;
+  padding: 5px;
+
+  }
+  
+  #infla-4 {
+    top: 18%; 
+    left: 75.5%;
+    width: 18%;
+    padding: 3px 5px;
+    margin: 2px 0;
+  }  
+  
+
+  #infla-5 {    
+    top: 65%;
+    /* left: ; */
+    width: 20%;
+    padding: 10px 5px;
+  }
+
+  #infla-6 {
+    top: 65%;
+    left: 27.5%;
+    width: 20%;
+  }  
+  
+
+  #infla-7 {
+    top: 65%;
+    left: 50%;
+    width: 20%;  
+  }
+  
+
+  #infla-8 {
+    top: 65%;
+    left: 75.5%;
+    width: 20%;
+  }
+  
+  div#theoinfla + p {
+    width:80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
   /**FOOTER STYLES**/
   .ftsec2 {
     padding: 10px 0;
