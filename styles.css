@@ -284,7 +284,7 @@ i[class$=user] {
   clear: left;
 }
 
-#theoinfla {
+#theoinflasection {
   display: none;
 }
 
@@ -1042,6 +1042,10 @@ i[class$=user] {
   
   .cssa1sty {
     clear: left;
+  }
+
+  #theoinflasection {
+    display: block;
   }
 
   #theoinfla {
@@ -2155,9 +2159,12 @@ i[class$=user] {
 }
 
 @media screen and (min-width: 1150px) {
+  #theoinflasection {
+    display: block;
+  }
+
   #theoinfla {
     max-width: 80%;
-    display: block;
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
