@@ -569,6 +569,11 @@ i[class$=user] {
 
 }
 
+.cssmf .ftsec2:last-of-type {
+  border-bottom: none;
+  
+}
+
 
 #sticksub {
   position: sticky;
@@ -2346,6 +2351,7 @@ i[class$=user] {
 
   .cssmf .ftsec2:last-of-type {
     margin-left: 5px;
+    
   }
   
   #borderb {
