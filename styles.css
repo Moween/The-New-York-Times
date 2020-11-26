@@ -333,7 +333,7 @@ i[class$=user] {
 #section1 footer div > a {
   text-align: center;
   text-decoration: none;
-}
+} 
 
 /**ASIDE SECTION STYLES**/
 #asidebar {
@@ -490,6 +490,7 @@ i[class$=user] {
 .ftsec2 {
   padding: 10px 0;
   display: flex;
+  justify-content: space-between;
   font-size: 0.714rem;
   border-bottom: 1px solid lightgrey;
 }
@@ -569,10 +570,15 @@ i[class$=user] {
 
 }
 
+#link-con .flinkhide {
+  display: inline-block;
+}
+
 .cssmf .ftsec2:last-of-type {
   border-bottom: none;
   
 }
+
 
 
 #sticksub {
@@ -1533,6 +1539,10 @@ i[class$=user] {
   
 
   .flinkhide {
+    display: none;
+  }
+
+  #link-con .flinkhide {
     display: none;
   }
   
