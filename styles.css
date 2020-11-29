@@ -627,6 +627,17 @@ i[class$=user] {
     vertical-align: middle;
   }
 
+  .headline {
+   width: 100%;
+   margin-left: 0;
+   margin-right: 0;
+ }
+
+ .headline h1 {
+   text-align: center;
+ }
+  
+
   #cssmf {
     display: flex;
     align-items: center;
@@ -927,6 +938,7 @@ i[class$=user] {
   .headline h1 {
     font-size: 2rem;
     width: 80%;
+    text-align: left;
     margin: 0 auto  20px;
     
   }
