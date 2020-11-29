@@ -588,6 +588,7 @@ i[class$=user] {
 #sticksub {
   position: sticky;
   bottom: 0;
+  top: 0;
   border-top: 1px solid #000;
   height: 80px;
   font-weight: bold;
@@ -1570,6 +1571,7 @@ i[class$=user] {
   #sticksub {
     position: sticky;
     bottom: 0;
+    top: 0;
     border-top: 1px solid #000;
     height: 80px;
     font-weight: bold;
