@@ -1864,6 +1864,10 @@ i[class$=user] {
     margin-bottom: 50px;
   }
 
+  #section1 footer >.social-icons-share {
+    width: 40%;
+  }
+
   
   /**THIS SECTION CONTAINS THE ASIDE, SECTION2,3,4**/
   .asec234 {
