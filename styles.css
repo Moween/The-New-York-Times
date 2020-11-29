@@ -287,7 +287,7 @@ i[class$=user] {
 }
 
 .video-wrap {
-  width: 474px;
+  width: 100%;
   text-align: center;
 }
 
@@ -1178,6 +1178,7 @@ i[class$=user] {
   
   .video-wrap {
     width: 600px;
+    margin: 0 auto;
   }
 
   .video-stream {  
@@ -2266,18 +2267,30 @@ i[class$=user] {
     margin-left: auto;
   }
 
-  /**SECTION@ STYLES***/
+  /**SECTION1 STYLES***/
   .article2div {
     width: 32%;
+    position: relative;    
   }
 
   .artiflbx {
     display: flex;
     justify-content: space-between;
   }
+
   
   .article2div .div-box {
     display: block;
+    /* position: relative; */
+  }
+
+  .article2div > .div-box div:last-child {
+    position: static;
+  }
+
+  .seelatest-text {
+    position: absolute;
+    bottom: 0;
   }
 
 
