@@ -585,7 +585,6 @@ i[class$=user] {
 }
 
 
-
 #sticksub {
   position: sticky;
   bottom: 0;
@@ -2305,6 +2304,10 @@ i[class$=user] {
     font-size: 0.875rem;
   }
 
+  .ftsec2 a {
+    margin-left: 0;
+
+  }
   .ftsec-link {
     color: #000;
     padding: 0;
@@ -2346,7 +2349,7 @@ i[class$=user] {
   }
 
   #link-con {
-    width: 60%;
+    width: 70%;
     font-size: 0.65rem;
     padding-right: 0;
     padding-left: 15px;
