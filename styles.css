@@ -1298,7 +1298,7 @@ i[class$=user] {
   .material-icons {
     position: absolute;
     right: 15px;
-    top: 15px;
+    top: -3px;
   }
 
   .article2div .material-icons {
@@ -1915,7 +1915,7 @@ i[class$=user] {
   .article2div {
     border: 1px solid lightgrey;
     margin-top: 10px;
-    width: 32%;
+    width: 100%;
   }
   
   .cssh4p {
@@ -1926,12 +1926,11 @@ i[class$=user] {
 
   
   .artiflbx {
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
   
   .article2div .div-box {
-    display: block;
+    display: flex;
   }
   
   
@@ -1967,7 +1966,7 @@ i[class$=user] {
   .material-icons {
     position: absolute;
     right: 15px;
-    top: -115px;  
+    top: 15px;  
   }
   
   .lstdiv {
@@ -2261,6 +2260,20 @@ i[class$=user] {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  /**SECTION@ STYLES***/
+  .article2div {
+    width: 32%;
+  }
+
+  .artiflbx {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .article2div .div-box {
+    display: block;
   }
 
 
