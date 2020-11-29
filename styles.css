@@ -286,9 +286,14 @@ i[class$=user] {
   display: none;
 }
 
+.video-wrap {
+  width: 474px;
+  text-align: center;
+}
 
 .video-stream {
-  width: 100%;
+  width: 474px;
+  height: 257px;
   left: 0px; 
   top: 0px;
 }
@@ -942,12 +947,13 @@ i[class$=user] {
   } 
   
   .intro{
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia,'times new roman',times,serif;
     font-size: 0.875rem;
     line-height: 1.125rem;
     color: #666;
     padding-right: 15px;
     padding-left: 15px;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
   
@@ -1171,11 +1177,13 @@ i[class$=user] {
     letter-spacing: .05em;
   }
   
+  .video-wrap {
+    width: 600px;
+  }
 
-  .video-stream {
-    width: 100%;
-    left: 0px; 
-    top: 0px;
+  .video-stream {  
+    width: 600px;
+    height: 358px;
   }
   
   #lstsection {
@@ -1838,9 +1846,6 @@ i[class$=user] {
   }  
   
   .video-stream {
-    width: 100%;
-    left: 0px; 
-    top: 0px;
     margin-bottom: 10px;
   }
   
